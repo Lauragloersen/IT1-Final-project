@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -63,5 +65,20 @@ header .container {
   height: 100vh;
   background-color: #7A7265;
 }
+.bilder {
+  height: 200px;
+  width: 160px;
+}
+.scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
+.overskrift {
+  color:#C69C72; 
+  justify-content:center ;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Playfair-Display";
+}
