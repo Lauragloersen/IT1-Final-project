@@ -12,7 +12,7 @@ img {
 }
 
 #side1 {
-  background-color: #433E3F; 
+  background-color: #F8AD9D; 
   height: 100vh;
 }
 nav ul {
@@ -22,7 +22,7 @@ nav ul {
 
 nav li {
   list-style: none;
-  color: #C69C72;
+  color: #F08080;
 }
 
 nav a {
@@ -58,27 +58,54 @@ header .container {
 
 #side2 {
   height: 100vh;
-  background-color: #C0B7B1;
+  background-color: #FBC4AB;
 }
 
 #side3 {
   height: 100vh;
-  background-color: #7A7265;
+  background-color: #FFDAB9;
 }
 .bilder {
   height: 200px;
   width: 160px;
+  flex-shrink: 0;
 }
 .scroll {
   display: flex;
-  justify-content: center;
   align-items: center;
+  max-width: 950px;
+  margin: auto;
+  overflow-x: auto;
+  border: 2px solid white;
 }
 
 .overskrift {
-  color:#C69C72; 
+  color:#F08080; 
   justify-content:center ;
   text-align: center;
   font-size: 70px;
   font-family: "Playfair-Display";
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.anbefal {
+  font-size: 60px;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  color:#F08080;
+}
+
+.filmer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.film {
+  width: 500px;
+  height: 400px;
+  background-color:#FFDAB9;
 }
