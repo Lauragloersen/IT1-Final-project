@@ -23,6 +23,7 @@ nav ul {
 nav li {
   list-style: none;
   color: #F08080;
+   text-shadow: 1px 2px 8px rgba(180, 60, 60, 0.25);
 }
 
 nav a {
@@ -87,6 +88,7 @@ header .container {
   font-family: "Playfair-Display";
   margin-top: 60px;
   margin-bottom: 80px;
+  text-shadow: 1px 2px 8px rgba(180, 60, 60, 0.25);
 }
 
 .anbefal {
@@ -102,10 +104,26 @@ header .container {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  margin-top: 80px;
 }
 
 .film {
-  width: 500px;
+  width: 300px;
   height: 400px;
   background-color:#FFDAB9;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#F08080; 
+}
+.favfilm {
+  height: 300px;
+  width: 200px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+h3 {
+  margin-top: 20px;
 }
