@@ -133,7 +133,20 @@ h3 {
 }
 
 .theshining{
-  width: 300px;
+  width: 600px;
+  height: 600px;
+  margin-bottom: 200px;
+  padding: 80px;
+  
+}
+.bildeside2 {
   height: 300px;
-  background-color: aquamarine;
+  width:200px
+}
+.overskrift2 {
+  margin-top: 30px;
+}
+
+.displaynone {
+  display: none;
 }
