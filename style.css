@@ -133,15 +133,22 @@ h3 {
 }
 
 .theshining{
-  width: 600px;
-  height: 600px;
-  margin-bottom: 200px;
-  padding: 80px;
-  
+  width: 900px;
+  height: 600px; 
+  margin-top: 80px;
+  border-radius: 20px;
+  background-color: rgb(255, 240, 250);
+  padding: 20px;
+  display: flex;
+  margin: auto;
 }
 .bildeside2 {
-  height: 300px;
-  width:200px
+  height: 500px;
+  width:400px;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-right: 30px;
+  
 }
 .overskrift2 {
   margin-top: 30px;
@@ -149,4 +156,13 @@ h3 {
 
 .displaynone {
   display: none;
+}
+
+#side4 {
+  background-color: rgb(251, 219, 234);
+  height: 100vh;
+}
+
+.teksten {
+  max-width: 300px;
 }
