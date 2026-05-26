@@ -8,13 +8,13 @@
   </head>
   <body>
     <section id="side4">
-      <header>    
+      <header>
         <div class="container">
           <nav>
             <ul>
-              <li>THE SHINING</li>
-              <li>THE NOTEBOOK</li>
-              <li>INTERSTELLAR</li>
+              <li><a href="#side4">THE SHINING</a></li>
+              <li><a href="#side5">THE NOTEBOOK</a></li>
+              <li><a href="#side6">INTERSTELLAR</a></li>
             </ul>
           </nav>
           <div>
@@ -33,13 +33,12 @@
             særlig fornøyd med Kubricks tolkning, ettersom regissøren endret en
             del av bokens innhold og tone.
           </p>
-          <button class="lesmer">Les mer</button>
 
           <p class="displaynone">
-            Handling: Jack Torrance (Jack Nicholson) tar jobben som vintervakt
-            på det avsides Overlook Hotel i Colorado, sammen med kona Wendy
-            (Shelley Duvall) og sønnen Danny. Hotellet er stengt for sesongen,
-            og familien er helt alene. Danny har en overnaturlig evne kalt «the
+            Jack Torrance (Jack Nicholson) tar jobben som vintervakt på det
+            avsides Overlook Hotel i Colorado, sammen med kona Wendy (Shelley
+            Duvall) og sønnen Danny. Hotellet er stengt for sesongen, og
+            familien er helt alene. Danny har en overnaturlig evne kalt «the
             shining» – han kan se syner og kommunisere telepatisk. Etter hvert
             begynner hotellets mørke fortid og overnaturlige krefter å bryte ned
             Jacks sinn, med katastrofale følger. Ikoniske elementer «Here's
@@ -48,11 +47,9 @@
             gjenkjennelige bilder Rommet 237 og sykkelturen gjennom hotellets
             korridorer Labyrinten utenfor hotellet Arv og innflytelse Filmen
             regnes som et mesterverk innen psykologisk horror og har hatt enorm
-            innflytelse på popkulturen. Kubricks bruk av Steadicam, symmetrisk
-            komposisjon og atmosfærisk musikk er mye analysert og beundret. I
-            2019 kom oppfølgerfilmen Doctor Sleep, basert på Kings
-            oppfølgerroman.
+            innflytelse på popkulturen.
           </p>
+          <button class="lesmer">Les mer</button>
         </div>
         <img class="bildeside2" src="Bilder/theshining.jpg" alt="" />
       </div>
@@ -69,14 +66,14 @@
             Filmen har blitt en av tidenes mest elskede kjærlighetshistorier og
             regnes som en klassiker innen romantisk film.
           </p>
-          <button class="lesmer">Les mer</button>
+
           <p class="displaynone">
-            Handling: Historien følger Noah Calhoun og Allie Hamilton, to unge
-            mennesker fra vidt forskjellige samfunnslag som forelsker seg
-            hodestups i hverandre under sommeren 1940 i South Carolina.
-            Forholdet deres møter motstand fra Allies velstående familie, og de
-            skilles. År senere er Allie forlovet med en annen mann – men når hun
-            tilfeldig ser Noah igjen, tvinges hun til å velge mellom fortiden og
+            Historien følger Noah Calhoun og Allie Hamilton, to unge mennesker
+            fra vidt forskjellige samfunnslag som forelsker seg hodestups i
+            hverandre under sommeren 1940 i South Carolina. Forholdet deres
+            møter motstand fra Allies velstående familie, og de skilles. År
+            senere er Allie forlovet med en annen mann – men når hun tilfeldig
+            ser Noah igjen, tvinges hun til å velge mellom fortiden og
             fremtiden. Filmen veksler mellom fortidens intense
             kjærlighetshistorie og nåtiden, der en eldre mann leser historien
             høyt for en dame på et pleiehjem. Skuespillere Hovedrollene spilles
@@ -84,6 +81,7 @@
             legendarisk. James Garner og Gena Rowlands spiller paret i de eldre
             årene.
           </p>
+          <button class="lesmer">Les mer</button>
         </div>
         <img
           class="bildeside2"
@@ -106,24 +104,41 @@
             den mest nøyaktige fremstillingen av et svart hull i filmhistorien.
             Filmen kombinerer hard vitenskap med en dypt menneskelig historie.
           </p>
-          <button class="lesmer">Les mer</button>
+
           <p class="displaynone">
-            Handling Historien utspiller seg i en nær fremtid der jorden er i
-            ferd med å bli ubeboelig på grunn av matmangel og støvstormer.
-            Cooper, en tidligere NASA-pilot og nå bonde, rekrutteres til en
-            hemmelig romferdsmisjon. Han og et team med astronauter reiser
-            gjennom en ormehull nær Saturn for å lete etter nye planeter
-            menneskeheten kan flytte til – og Cooper må forlate sine egne barn
-            for å redde menneskeheten. Filmen utforsker temaer som kjærlighet,
-            tid og offervilje, og blander spektakulære romscener med dype
-            emosjonelle øyeblikk. Skuespillere Matthew McConaughey spiller
-            hovedrollen som Cooper, med Anne Hathaway, Jessica Chastain og
-            Michael Caine i sentrale roller.
+            Historien utspiller seg i en nær fremtid der jorden er i ferd med å
+            bli ubeboelig på grunn av matmangel og støvstormer. Cooper, en
+            tidligere NASA-pilot og nå bonde, rekrutteres til en hemmelig
+            romferdsmisjon. Han og et team med astronauter reiser gjennom en
+            ormehull nær Saturn for å lete etter nye planeter menneskeheten kan
+            flytte til – og Cooper må forlate sine egne barn for å redde
+            menneskeheten. Filmen utforsker temaer som kjærlighet, tid og
+            offervilje, og blander spektakulære romscener med dype emosjonelle
+            øyeblikk. Skuespillere Matthew McConaughey spiller hovedrollen som
+            Cooper, med Anne Hathaway, Jessica Chastain og Michael Caine i
+            sentrale roller.
           </p>
+          <button class="lesmer">Les mer</button>
         </div>
         <img class="bildeside2" src="Bilder/p10543523_p_v8_as.jpg" alt="" />
       </div>
     </section>
-    
+    <script>
+      const knapper = document.querySelectorAll(".lesmer");
+
+      knapper.forEach(function (knapp) {
+        knapp.addEventListener("click", function () {
+          const skjultTekst = knapp.previousElementSibling;
+
+          if (skjultTekst.classList.contains("displaynone")) {
+            skjultTekst.classList.remove("displaynone");
+            knapp.textContent = "Les mindre";
+          } else {
+            skjultTekst.classList.add("displaynone");
+            knapp.textContent = "Les mer";
+          }
+        });
+      });
+    </script>
   </body>
 </html>
