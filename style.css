@@ -124,6 +124,7 @@ header .container {
   transform: scale(1.08);
 }
 
+
 .favfilm {
   height: 300px;
   width: 200px;
@@ -135,7 +136,7 @@ h3 {
   margin-top: 20px;
 }
 
-.theshining {
+ .anbefalinger section  {
   width: 900px;
   min-height: 600px;
   margin-top: 80px;
@@ -183,14 +184,7 @@ h3 {
   border: solid #f8ad9d 1px;
 }
 .thenotebook {
-  width: 900px;
-  min-height: 600px;
-  margin-top: 80px;
-  border-radius: 20px;
   background-color: rgb(251, 219, 234);
-  padding: 20px;
-  display: flex;
-  margin: auto;
   margin-top: 100px;
 }
 
@@ -205,13 +199,6 @@ h3 {
   padding-top: 1px;
 }
 .interstellar {
-  width: 900px;
-  min-height: 600px;
-  margin-top: 80px;
-  border-radius: 20px;
   background-color: rgb(255, 240, 250);
-  padding: 20px;
-  display: flex;
-  margin: auto;
   margin-top: 100px;
 }
