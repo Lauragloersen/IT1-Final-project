@@ -97,6 +97,16 @@ header .container {
   overflow-x: auto;
   border: 2px solid white;
 }
+.info-boks {
+  background-color: #f08080;
+  color: white;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 40px;
+  width: 600px;
+  margin: 30px auto;
+  font-size: 16px;
+}
 
 .overskrift {
   color: #f08080;
