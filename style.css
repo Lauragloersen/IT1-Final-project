@@ -136,15 +136,13 @@ h3 {
   margin-top: 20px;
 }
 
- .anbefalinger section  {
+.anbefalinger section  {
   width: 900px;
-  min-height: 600px;
-  margin-top: 80px;
   border-radius: 20px;
   background-color: rgb(255, 240, 250);
-  padding: 20px;
+  padding: 10px;
   display: flex;
-  margin: auto;
+  margin: 40px auto;
 }
 .bildeside2 {
   height: 500px;
@@ -165,7 +163,7 @@ h3 {
 
 #side4 {
   background-color: rgb(251, 219, 234);
-  height: 100vh;
+  padding-bottom: 60px;
 }
 
 .teksten {
@@ -189,14 +187,12 @@ h3 {
 }
 
 #side5 {
-  height: 100vh;
   background-color: rgb(255, 240, 250);
-  padding-top: 1px;
+  padding-bottom: 60px;
 }
 #side6 {
-  height: 100vh;
   background-color: rgb(251, 219, 234);
-  padding-top: 1px;
+  padding-bottom: 60px;
 }
 .interstellar {
   background-color: rgb(255, 240, 250);
