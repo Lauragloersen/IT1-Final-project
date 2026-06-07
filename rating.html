@@ -54,5 +54,23 @@
 
     </div>
   
+    <script>
+      const oppKnapper = document.querySelectorAll(".tommel-opp");
+      const nedKnapper = document.querySelectorAll(".tommel-ned");
+
+      oppKnapper.forEach(function(knapp) {
+        knapp.addEventListener("click", function() {
+          const svar = knapp.nextElementSibling.nextElementSibling;
+          svar.textContent = "Du likte denne filmen!";
+        });
+      });
+
+      nedKnapper.forEach(function(knapp) {
+        knapp.addEventListener("click", function() {
+          const svar = knapp.nextElementSibling;
+          svar.textContent = "Du likte ikke denne filmen!";
+        });
+      });
+    </script>
 </body>
 </html>
